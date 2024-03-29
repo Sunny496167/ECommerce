@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Nike Store</title>
+</head>
+<body>
+
+    <!-- Start navigation bar -->
+    <nav id="nav">
+        <div class="navTop">
+            <div class="navItem">
+                <img src="IMG/sneakers.png" width="200px"  height="80" alt="Logo">
+            </div>
+            <div class="navItem">
+                <div class="search">
+                    <input type="text" placeholder="Search NikeStore..." class="searchInput">
+                    <img src="IMG/search.png" width="20px" height="20px" alt="Search Icon">
+                </div>
+            </div>
+            <div class="navItem">
+                <span class="limitedOffer">Limited  Offer!</span>
+            </div>
+        </div>
+        <div class="navBottom">
+            <h3 class="menuItem">AIR FORCE</h3>
+            <h3 class="menuItem">JORDON</h3>
+            <h3 class="menuItem">BLAZER</h3>
+            <h3 class="menuItem">CRATER</h3>
+            <h3 class="menuItem">HIPPI</h3>
+        </div>
+    </nav>
+    <!-- Start navigation bar -->
+
+    <!-- Start sliding Window -->
+    <div class="slider">
+        <div class="sliderWrapper">
+            <div class="sliderItem">
+                <img src="IMG/air.png" alt="Slide Image" class="sliderImg">
+                <div class="slideBg"></div>
+                <h1 class="sliderTitle">AIR FORCE <br> NEW <br> SEASON</h1>
+                <h2 class="sliderPrice">$119</h2>
+                <a href="#product">
+                    <button  class="buyButton">Buy Now!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="IMG/jordan.png" alt="Slide Image" class="sliderImg">
+                <div class="slideBg"></div>
+                <h1 class="sliderTitle">JORDON <br> NEW <br> SEASON</h1>
+                <h2 class="sliderPrice">$149</h2>
+                <a href="#product">
+                    <button  class="buyButton">Buy Now!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="IMG/blazer.png" alt="Slide Image" class="sliderImg">
+                <div class="slideBg"></div>
+                <h1 class="sliderTitle">BLAZER <br> NEW <br> SEASON</h1>
+                <h2 class="sliderPrice">$139</h2>
+                <a href="#product">
+                    <button  class="buyButton">Buy Now!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="IMG/creter.png" alt="Slide Image" class="sliderImg">
+                <div class="slideBg"></div>
+                <h1 class="sliderTitle">CRATER <br> NEW <br> SEASON</h1>
+                <h2 class="sliderPrice">$129</h2>
+                <a href="#product">
+                    <button  class="buyButton">Buy Now!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="IMG/hippi.png" alt="Slide Image" class="sliderImg">
+                <div class="slideBg"></div>
+                <h1 class="sliderTitle">HIPPI <br> NEW <br> SEASON</h1>
+                <h2 class="sliderPrice">$169</h2>
+                <a href="#product">
+                    <button  class="buyButton">Buy Now!</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- End sliding Window -->
+
+    <!-- Features of site Section -->
+    <div class="features">
+        <div class="feature">
+            <img src="IMG/Shipping.png" alt="" class="featureIcon">
+            <span class="featureTitle">FREE SHIPPING</span>
+            <span class="featureDesc">Free worldwide shipping on all orders.</span>
+        </div>
+        <div class="feature">
+            <img src="IMG/return.png" alt="" class="featureIcon">
+            <span class="featureTitle">30 DAYS RETURN</span>
+            <span class="featureDesc">No question return and easy refund in 14 days.</span>
+        </div>
+        <div class="feature">
+            <img src="IMG/gift.png" alt="" class="featureIcon">
+            <span class="featureTitle">GIFT CARDS</span>
+            <span class="featureDesc">Buy gift cards and use coupan codes easily.</span>
+        </div>
+        <div class="feature">
+            <img src="IMG/Contact.png" alt="" class="featureIcon">
+            <span class="featureTitle">CONTACT US</span>
+            <span class="featureDesc">Keep in touch via email and support system.</span>
+        </div>
+    </div>
+    <!-- End features of site section-->
+
+    <!-- Products Section Start -->
+    <div class="product" id="product">
+        <img src="IMG/air.png" alt="" class="productImg">
+        <div class="productDetails">
+            <h1 class="productTitle">AIR FORCE</h1>
+            <h2 class="productPrice">$119</h2>
+            <p class="productDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Etiam porta sem males</p>
+            <div class="colors">
+                <div class="color"></div>
+                <div class="color"></div>
+            </div>
+            <div class="sizes">
+                <div class="size">7</div>
+                <div class="size">8</div>
+                <div class="size">9</div>
+            </div>
+            <button class="productButton">BUY NOW!</button>
+        </div>
+
+        <!-- Payment Section -->
+        <div class="payment">
+            <h1 class="payTitle">Personal Information</h1>
+            <label>Name and Surname</label>
+            <input type="text" placeholder="Enter Your Name" class="payInput">
+            <label>Phone Number</label>
+            <input type="text" placeholder="0123456789" class="payInput">
+            <label>Address</label>
+            <input type="text" placeholder="Enter Your Address" class="payInput">
+            <h1 class="payTitle">Card Information</h1>
+            <div class="cardIcons">
+                <img src="IMG/rupay.png" alt="" width="40" class="cardIcon">
+                <img src="IMG/visa.png" alt="" width="40" class="cardIcon">
+            </div>
+            <input type="password" placeholder="Card Number" class="payInput">
+            <div class="cardInfo">
+                <input type="text" placeholder="MM" class="payInput sm">
+                <input type="text" placeholder="YYYY" class="payInput sm">
+                <input type="text" placeholder="CVV" class="payInput sm">
+            </div>
+            <button class="payButton">Checkout!</button>
+            <span class="close">X</span>
+        </div>
+        <!-- End Payment Section -->
+    </div>
+    <!-- End Product section -->
+
+    <!-- Start Model Section -->
+    <div class="gallery">
+        <div class="galleryItem">
+            <h1 class="galleryTitle">Be Yourself!</h1>
+            <img src="IMG/alabbas.jpg" alt="" class="galleryImg">
+        </div>
+        <div class="galleryItem">
+            <img src="IMG/hilton.jpg" alt="" class="galleryImg">
+            <h1 class="galleryTitle">This is the First day of Your life</h1>
+        </div>
+        <div class="galleryItem">
+            <h1 class="galleryTitle">Just do It!</h1>
+            <img src="IMG/aman.jpg" alt="" class="galleryImg">
+        </div>
+    </div>
+    <!-- End Model Section -->
+
+    <!-- Offer section start -->
+    <div class="newSeason">
+        <div class="nsItem">
+            <img src="IMG/winter.png" alt="" class="nsImg">
+        </div>
+        <div class="nsItem">
+            <h3 class="nsTitleSm">WINTER NEW ARRIVALS</h3>
+            <h1 class="nsTitle">NEW SEASON</h1>
+            <h1 class="nsTitle">NEW COLLECTION</h1>
+            <a href="#nav">
+                <button class="nsButton">CHOOSE YOUR STYLE</button>
+            </a>
+        </div>
+        <div class="nsItem">
+            <img src="IMG/new.png" alt="" class="nsImg">
+        </div>
+    </div>
+    <!-- Offer section end -->
+
+    <!-- Footer section start -->
+    <footer>
+        <div class="footerLeft">
+           <div class="footerMenu">
+                <h1 class="fMenuTitle">About Us</h1>
+                <ul class="fList">
+                    <li class="fListItem">Company</li>
+                    <li class="fListItem">Contact</li>
+                    <li class="fListItem">Careers</li>
+                    <li class="fListItem">Affiliates</li>
+                    <li class="fListItem">Stores</li>
+                </ul>
+           </div>
+           <div class="footerMenu">
+                <h1 class="fMenuTitle">Useful Links</h1>
+                <ul class="fList">
+                    <li class="fListItem">Support</li>
+                    <li class="fListItem">Refund</li>
+                    <li class="fListItem">FAQ</li>
+                    <li class="fListItem">Feedback</li>
+                    <li class="fListItem">stories</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Products</h1>
+                <ul class="fList">
+                    <li class="fListItem">Air Max</li>
+                    <li class="fListItem">Air Jordan</li>
+                    <li class="fListItem">Blazer</li>
+                    <li class="fListItem">Affiliates</li>
+                    <li class="fListItem">Stores</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerRight">
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Subscribe to our newsletter!</h1>
+                <div class="fMail">
+                    <input type="text" placeholder="your@gmail.com" class="fInput">
+                    <button class="fButton">Join!</button> 
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Follow Us</h1>
+                <div class="fIcons">
+                    <img src="IMG/facebook.png" alt="" class="fIcon">
+                    <img src="IMG/twitter.png" alt="" class="fIcon">
+                    <img src="IMG/instagram.png" alt="" class="fIcon">
+                    <img src="IMG/whatsapp.png" alt="" class="fIcon">
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <span class="copyright">&copy;Sunny Dev. All rights reserved. 2024.</span>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer section -->
+    <script src="app.js"></script>
+</body>
+</html>
